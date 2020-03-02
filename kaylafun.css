@@ -198,6 +198,11 @@ html, body, div, footer {
   text-align: center;
 }
 
+.slides-container {
+  width: 50%;
+  padding-top: 150px;
+}
+
 /*footer*/
 .footer {
   position: inline-block;
