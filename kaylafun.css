@@ -200,9 +200,13 @@ html, body, div, footer {
 .slides-container {
   width: 50%;
   padding-top: 150px;
+}
+
+.slides-section {
+  background-color: pink;
+  width: 100%;
   margin: auto;
   height: 0;
-  background-color: pink;
 }
 
 /*footer*/
