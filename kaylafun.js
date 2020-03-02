@@ -44,9 +44,9 @@ $(document).ready(function() {
 
   $(function() {
 
-    $('.container .slides:gt(0)').hide();
+    $('.slides-container .slides:gt(0)').hide();
     setInterval(function() {
-      $('.container :first-child').fadeOut(500).next('.slides').fadeIn(500)
+      $('.slides-container :first-child').fadeOut(500).next('.slides').fadeIn(500)
         .end().appendTo('.container');
     }, 3000);
 
