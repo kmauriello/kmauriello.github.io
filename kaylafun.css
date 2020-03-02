@@ -192,7 +192,6 @@ html, body, div, footer {
 
 /*testimonials slider*/
 .slides {
-  background-color: pink;
   color: gray;
   font-size: 200%;
   text-align: center;
@@ -201,6 +200,9 @@ html, body, div, footer {
 .slides-container {
   width: 50%;
   padding-top: 150px;
+  margin: auto;
+  height: 0;
+  background-color: pink;
 }
 
 /*footer*/
