@@ -40,54 +40,16 @@ TweenMax.staggerFrom(".heading", 0.8, {
 }, 0.4);
 */
 /*testimonial slider functions*/
-var current = 1;
-var max = $("li").length + 1;
+$(document).ready(function() {
 
-$(".slidercontent").hide();
-$(".slidercontent:nth-child(1)").fadeIn("slow");
+  $(function() {
 
-//function to change to next quote
-function changeUp() {
-  $(".slidercontent").hide();
-  current += 1;
-  if (current === max) {
-    current = 1;
-  }
-  $(".slidercontent:nth-child(" + current + ")").fadeIn("slow");
-}
+    $('.container .slides:gt(0)').hide();
+    setInterval(function() {
+      $('.container :first-child').fadeOut(500).next('.slides').fadeIn(500)
+        .end().appendTo('.container');
+    }, 3000);
 
-function changeDown() {
-  $(".slidercontent").hide();
-  current -= 1;
+  });
 
-  if (current === 0) {
-    current = max - 1;
-  }
-
-  $(".slidercontent:nth-child(" + current + ")").fadeIn("slow");
-}
-
-startChange();
-
-$(".sliderspot2").click(function() {
-  stopChange();
-  changeUp();
-  startChange();
 });
-
-$(".sliderspot").click(function() {
-  stopChange();
-  changeDown();
-  startChange();
-});
-
-//FUNCTIONS TO CONTROL TIMING CHANGES
-function startChange() {
-  changeIt = setInterval(function() {
-    changeUp();
-  }, 10000);
-};
-
-function stopChange() {
-  clearInterval(changeIt);
-}
