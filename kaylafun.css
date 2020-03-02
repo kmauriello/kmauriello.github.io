@@ -198,13 +198,13 @@ html, body, div, footer {
 }
 
 .slides-container {
+  display: inline-block;
   width: 50%;
   padding-top: 150px;
 }
 
 .slides-section {
   background-color: pink;
-  width: 100%;
   margin: auto;
   height: 0;
 }
