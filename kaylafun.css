@@ -1,202 +1,284 @@
-
-
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
-
-html, body, div, footer{
-	margin: 0;
-	padding: 0;
-	border: 0;
+html, body, div, footer {
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
+
 /* Kayla's Code */
-
 .nav {
-  width:100%;
-  height:50px;
-  background-color:#f0e0d0;
-  margin:0px;
-  padding-bottom:50px;
-}
-.nav-title{
-  width:60%;
-  height:100%;
-  float:left;
+  width: 100%;
+  height: 50px;
+  background-color: #f0e0d0;
   margin: 0px;
-  padding-left:30px;
+  padding-bottom: 50px;
 }
-#site-title{
+
+.nav-title {
+  width: 60%;
+  height: 100%;
+  float: left;
+  margin: 0px;
+  padding-left: 30px;
+}
+
+#site-title {
   color: #292d35;
   font-size: 40px;
   font-family: serif;
 }
-.nav-menu{
-  width:40%;
-  height:100%;
-  margin:0px;
-  padding-right:30px;
-  float:right;
-  display:inline;
+
+.nav-menu {
+  width: 40%;
+  height: 100%;
+  margin: 0px;
+  padding-right: 30px;
+  float: right;
+  display: inline;
 }
-.nav-menu ul{
+
+.nav-menu ul {
   list-style-type: none;
-  display:inline;
-  padding-right:0px;
-  margin:0px;
+  display: inline;
+  padding-right: 0px;
+  margin: 0px;
 }
-.nav-menu li{
-  font-family:sans-serif;
-  display:inline;
+
+.nav-menu li {
+  font-family: sans-serif;
+  display: inline;
   color: #292d35;
   font-size: 16px;
-  padding-right:20px;
-  float:right;
+  padding-right: 20px;
+  float: right;
 }
-.nav-menu a{
-  text-decoration:none;
-  color:#292d35;
+
+.nav-menu a {
+  text-decoration: none;
+  color: #292d35;
 }
-.nav-menu a:hover{
-  color:#CC6565;
+
+.nav-menu a:hover {
+  color: #CC6565;
 }
-.hero{
-  position:relative;
-  width:100%;
-  height:auto;
-  padding:0px;
-  margin:0px;
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 0px;
+  margin: 0px;
 }
-.hero img{
+
+.hero img {
   z-index: -1;
-  display:block;
-  margin:0px;
-  padding:0px;
+  display: block;
+  margin: 0px;
+  padding: 0px;
 }
-.hero-text{
+
+.hero-text {
   position: absolute;
-  bottom:500px;
-  left:800px;
+  bottom: 500px;
+  left: 800px;
 }
-#hero-header{
+
+#hero-header {
   text-align: left;
   color: #CC6565;
-  margin:0px;
+  margin: 0px;
   font-size: 40px;
   font-family: serif;
 }
-#hero-tag{
-  text-align:left;
+
+#hero-tag {
+  text-align: left;
   color: #292d35;
-  margin:0px;
-  font-family:sans-serif;
-  font-size:16px;
-}
-.section{
-  width:100%;
-  height:50px;
-  margin:0px;
-  padding-top:30px;
-  padding-left:30px;
-}
-.section-header{
-  width:100%;
-  height:100%;
-  float:left;
   margin: 0px;
-  padding:0px;
+  font-family: sans-serif;
+  font-size: 16px;
 }
-#section-title{
+
+.section {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+.section-header {
+  width: 100%;
+  height: 100%;
+  float: left;
+  margin: 0px;
+  padding: 0px;
+}
+
+#section-title {
   text-align: left;
   color: #CC6565;
-  margin:0px;
+  margin: 0px;
   font-size: 40px;
-  font-family:serif;
+  font-family: serif;
 }
-.comics-display{
-  width:100%;
-  height:100px;
-  margin:0px;
-  padding:0px;
-  display:inline-block;
-  position:relative;
+
+.comics-display {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  display: inline-block;
+  position: relative;
 }
-.comics-row{
-  width:90%;
-  margin:auto;
+
+.comics-row {
+  width: 90%;
+  margin: auto;
   padding: 30px 0px 0px 0px;
-  position:relative;
+  position: relative;
 }
-.comics-row ul{
+
+.comics-row ul {
   list-style-type: none;
-  display:flex;
-  padding:0px 50px 0px 50px;
-  margin:0px;
-}
-.comics-row li{
-  display:flex;
-  padding:0px;
-  margin:0px;
-}
-.comics-row img{
-  display:flex;
-  width:75%;
-  height:100%;
-  border-style:solid;
-  border-width:.5px;
-  border-color:#292d35;
-  padding:0px;
-  margin:0px;
+  display: flex;
+  padding: 0px 50px 0px 50px;
+  margin: 0px;
 }
 
-.comic-name{
-  
-}
-.comic-attribution{
-  
-}
-.faqs-display{
-  width:100%;
-  height:250px;
-  margin:0px;
-  padding:0px 100px 0px 100px;
-  display:block;
-}
-.faqs-left{
-  width:50%;
-  height:100%;
-  padding:0px;
-  margin:auto;
-  float:left;
-  display:inline-block;
-}
-.faqs-right{
-  width:50%;
-  height:100%;
-  padding:0px;
-  margin:auto;
-  display:inline-block;
+.comics-row li {
+  display: flex;
+  padding: 0px;
+  margin: 0px;
 }
 
-.footer{
-  position:absolute;
-  width:100%;
-  height:25px;
-  background-color:#f0e0d0;
-  margin:0px;
-  padding:0px 0px 6px;
+.comics-row img {
+  display: flex;
+  width: 75%;
+  height: 100%;
+  border-style: solid;
+  border-width: .5px;
+  border-color: #292d35;
+  padding: 0px;
+  margin: 0px;
 }
-.footer img{
-  vertical-align:middle;
-  width:.75%;
-  padding-bottom:1px;
+
+.comic-name {}
+
+.comic-attribution {}
+
+.faqs-display {
+  width: 100%;
+  height: 250px;
+  margin: 0px;
+  padding: 0px 100px 0px 100px;
+  display: block;
 }
-#footer-love{
-  display:inline;
-  text-align:center;
-  width:100%;
-  font-size:12px;
-  font-family:serif;
-  margin:0px;
-  padding:0px;
+
+.faqs-left {
+  width: 50%;
+  height: 100%;
+  padding: 0px;
+  margin: auto;
+  float: left;
+  display: inline-block;
+}
+
+.faqs-right {
+  width: 50%;
+  height: 100%;
+  padding: 0px;
+  margin: auto;
+  display: inline-block;
+}
+
+/*testimonials slider*/
+.slider {
+  width: 100%;
+  background-color: lightgray;
+  margin: 10px auto;
+  height: 200px;
+}
+
+.slidercontainer {
+  width: 85%;
+  height: 200px;
+  margin: 0px auto;
+}
+
+.sliderspot {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background-color: gray;
+  display: inline;
+  cursor: pointer;
+  cursor: hand;
+}
+
+.sliderspot:hover {
+  background-color: black;
+}
+
+.spot1 {
+  margin: 85px 30px;
+  float: left;
+}
+
+.spot2 {
+  margin: 85px 30px;
+  float: right;
+}
+
+#sliderul {
+  list-style-type: none;
+  margin-left: 4%;
+  width: 75%;
+  text-align: center;
+  height: 150px;
+  padding: 10px;
+  line-height: 30px;
+  display: inline-block;
+}
+
+.slidercontent {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #1D1F20;
+}
+
+.slidercontent span {
+  font-size: 18px;
+  display: block;
+  margin-top: 10px;
+  color: #343436;
+}
+
+/*footer*/
+.footer {
+  position: absolute;
+  width: 100%;
+  height: 25px;
+  background-color: #f0e0d0;
+  margin: 0px;
+  padding: 0px 0px 6px;
+}
+
+.footer img {
+  vertical-align: middle;
+  width: .75%;
+  padding-bottom: 1px;
+}
+
+#footer-love {
+  display: inline;
+  text-align: center;
+  width: 100%;
+  font-size: 12px;
+  font-family: serif;
+  margin: 0px;
+  padding: 0px;
 }
