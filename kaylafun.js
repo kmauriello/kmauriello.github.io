@@ -47,7 +47,7 @@ $(document).ready(function() {
     $('.slides-container .slides:gt(0)').hide();
     setInterval(function() {
       $('.slides-container :first-child').fadeOut(500).next('.slides').fadeIn(500)
-        .end().appendTo('.container');
+        .end().appendTo('.slides-container');
     }, 3000);
 
   });

@@ -191,15 +191,14 @@ html, body, div, footer {
 }
 
 /*testimonials slider*/
-.slides {
-  color: gray;
-  font-size: 200%;
-  text-align: center;
-}
+.slides {}
 
 .slides-container {
   width: 50%;
   padding-top: 150px;
+  color: gray;
+  font-size: 200%;
+  text-align: center;
 }
 
 .slides-section {
