@@ -259,7 +259,7 @@ html, body, div, footer {
 
 /*footer*/
 .footer {
-  position: absolute;
+  position: relative;
   width: 100%;
   height: 25px;
   background-color: #f0e0d0;
