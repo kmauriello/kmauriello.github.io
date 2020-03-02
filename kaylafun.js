@@ -1,7 +1,7 @@
 /*----------------------------------------------------*/
 /* Navigation
 ------------------------------------------------------ */
-
+/*
 $(window).scroll(function() {
 
   if ($(window).scrollTop() > 300) {
@@ -14,7 +14,7 @@ $(window).scroll(function() {
 /*----------------------------------------------------*/
 /* Smooth Scrolling
 ------------------------------------------------------ */
-
+/*
 jQuery(document).ready(function($) {
 
   $('.smoothscroll').on('click', function(e) {
@@ -38,7 +38,7 @@ TweenMax.staggerFrom(".heading", 0.8, {
   y: 20,
   delay: 0.2
 }, 0.4);
-
+*/
 /*testimonial slider functions*/
 var current = 1;
 var max = $("li").length + 1;
