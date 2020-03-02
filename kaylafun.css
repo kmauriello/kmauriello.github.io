@@ -192,17 +192,18 @@ html, body, div, footer {
 
 /*testimonials slider*/
 .slides {
+  margin: auto;
+  height: 0;
+  text-align: center;
+  color: #383838;
+  font-size: 200%;
+  margin: auto;
   height: 0;
 }
 
 .slides-container {
   width: 50%;
   padding: 30px 0px 30px 0px;
-  margin: auto;
-  height: 0;
-  color: gray;
-  font-size: 200%;
-  text-align: center;
 }
 
 .slides-section {
