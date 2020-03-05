@@ -70,11 +70,12 @@ body {
 
 .hero {
   background-image: url("/resources/hero.png");
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   width: 100%;
-  min-height: 700px;
+  height: 700px;
   padding: 0px;
   margin: 0px;
 }
