@@ -69,7 +69,7 @@ body {
 }
 
 .hero {
-  background-image: url(/resources/hero.png);
+  background-image: url("/resources/hero.png");
   background-repeat: no-repeat;
   position: relative;
   width: 100%;
