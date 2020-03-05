@@ -71,11 +71,17 @@ body {
 .hero {
   background-image: url("/resources/hero.png");
   background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
   width: 100%;
-  height: auto;
+  min-height: 700px;
   padding: 0px;
   margin: 0px;
+}
+
+.hero-overlay {
+  background: #133333;
+  opacity: .65;
 }
 
 .hero-text {
